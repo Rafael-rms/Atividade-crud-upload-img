@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "0f9bdc0d-c77e-41ff-a927-fb2f17ed32fe",
+		"name": "crud_upload_img",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26212246"
+	},
+	"item": [
+		{
+			"name": "UPLOAD",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "nome_paciente",
+							"value": "Rafael Marques",
+							"type": "text"
+						},
+						{
+							"key": "telefone_paciente",
+							"value": "41924",
+							"type": "text"
+						},
+						{
+							"key": "celular_paciente",
+							"value": "994053",
+							"type": "text"
+						},
+						{
+							"key": "email_paciente",
+							"value": "marquesrafael3@hotmail.com",
+							"type": "text"
+						},
+						{
+							"key": "nome_responsavel",
+							"value": "Rafael",
+							"type": "text"
+						},
+						{
+							"key": "telefone_responsavel",
+							"value": "00000",
+							"type": "text"
+						},
+						{
+							"key": "imagem_paciente",
+							"type": "file",
+							"src": "/C:/Users/ETEC/Downloads/pexels-charles-1851164.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/paciente/inserir",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"paciente",
+						"inserir"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
